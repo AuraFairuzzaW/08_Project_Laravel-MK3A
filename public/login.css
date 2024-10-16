@@ -1,0 +1,67 @@
+/* Styling untuk form login dengan nuansa kalem dan elegan */
+body {
+    font-family: 'Lato', sans-serif;
+    background-image: url(mental-6841357_1280.png);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  form#loginForm {
+    background-color: #f1b7b7;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(2, 2, 2, 0.568);
+    width: 320px;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    color: #4a4a4a;
+    margin-bottom: 8px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c1afaf;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: #fcf9f9b9;
+    transition: border 0.3s ease;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #7d8080;
+    outline: none;
+  }
+  
+  button[type="submit"] {
+    width: 60%;
+    margin-left: 3px;
+    padding: 3% 10%;
+    background-color: #f51e1e8f;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    margin-top: 15px;
+    
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #b60e0e;
+  }
+  
+  button[type="submit"]:active {
+    background-color: #d60b0b;
+    transform: scale(0.98);
+  }
