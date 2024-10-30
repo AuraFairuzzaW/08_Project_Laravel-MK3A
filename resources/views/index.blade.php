@@ -15,5 +15,6 @@
         <button class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">Contact</button>
     </div>
 
+    <a href="{{ route ('about') }}"class="text=1xl font-bold mb-4">Selengkapnya...</a>
 </body>
 </html>
